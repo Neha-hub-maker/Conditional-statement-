@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+
+int p,c,m;
+printf("enter numbers of your hsc:\n");
+scanf("%d,%d,%d",&p,&c,&m);
+if(p>65 && c>55 && m>55)
+
+{
+    if((p+c+m)>=190 || (p+m)>=140)
+    {
+        printf(" you are eliglble");
+
+    }
+    else
+    {
+    printf("you are not eligible");
+    }
+
+}
+else {
+    printf("you didnt pass the requirement");
+}
+
+
+ 
+
+    return 0;
+}
