@@ -1,0 +1,22 @@
+#include <stdio.h>  // Include the standard input/output header file.
+
+void main()  
+{
+    int bp,sp,l,p;
+    printf("buying price:");
+    scanf("%d",&bp);
+    printf("seliing price:");
+    scanf("%d",&sp);
+    if(sp>bp)
+    {p = sp-bp;
+    printf("profit:""%d\n",p);}
+    else if(sp<bp)
+   { l = bp-sp;
+    printf("loss:""%d\n",l);}
+    else 
+    {printf("no profit or loss");}
+    
+}
+    
+    
+    
