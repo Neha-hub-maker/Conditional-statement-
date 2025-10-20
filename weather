@@ -1,0 +1,24 @@
+#include <stdio.h> 
+int main()
+{
+
+int tmp;
+if(tmp<0)
+{
+    printf("its freezing.\n");
+}
+else if (tmp < 10)   // Check if temperature is between 0 and 10.
+        printf("Very cold weather.\n");   // Print message for very cold weather.
+    else if (tmp < 20)   // Check if temperature is between 10 and 20.
+        printf("Cold weather.\n");   // Print message for cold weather.
+    else if (tmp < 30)   // Check if temperature is between 20 and 30.
+        printf("Normal in temp.\n");   // Print message for normal temperature.
+    else if (tmp < 40)   // Check if temperature is between 30 and 40.
+        printf("Its Hot.\n");   // Print message for hot weather.
+    else   // If none of the above conditions are met.
+        printf("Its very hot.\n");   // Print message for very hot weat
+
+
+    return 0;
+
+}
